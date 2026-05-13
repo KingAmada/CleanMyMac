@@ -1,0 +1,10 @@
+{
+  "id": "suspicious-powershell-dropper-pattern",
+  "name": "Suspicious PowerShell downloader pattern",
+  "category": "Malware",
+  "weight": 55,
+  "description": "Flags harmless test markers that resemble downloader staging behavior.",
+  "recommendation": "Review the script origin. Quarantine only if the file is unexpected.",
+  "extensions": [ ".ps1" ],
+  "textPatterns": [ "WINSHIELD_TEST_DOWNLOAD_MARKER", "Invoke-WebRequest" ]
+}

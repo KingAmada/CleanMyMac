@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\WinShield.Domain\WinShield.Domain.csproj" />
+    <ProjectReference Include="..\WinShield.Shared\WinShield.Shared.csproj" />
+  </ItemGroup>
+</Project>

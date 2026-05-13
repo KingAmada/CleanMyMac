@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.3" />
+    <ProjectReference Include="..\WinShield.Domain\WinShield.Domain.csproj" />
+    <ProjectReference Include="..\WinShield.Application\WinShield.Application.csproj" />
+  </ItemGroup>
+</Project>

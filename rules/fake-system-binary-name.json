@@ -1,0 +1,9 @@
+{
+  "id": "fake-system-binary-name",
+  "name": "System binary impersonation name",
+  "category": "UnknownSuspicious",
+  "weight": 50,
+  "description": "Detects files that imitate common Windows system process names outside trusted locations.",
+  "recommendation": "Check file location and signature. Treat as suspicious unless installed by trusted software.",
+  "fileNameRegex": "^(svch0st|scvhost|explorer-update|windows-update-service)\\.(exe|dll|ps1)$"
+}

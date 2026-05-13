@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
+    <ProjectReference Include="..\WinShield.Domain\WinShield.Domain.csproj" />
+    <ProjectReference Include="..\WinShield.Application\WinShield.Application.csproj" />
+  </ItemGroup>
+</Project>

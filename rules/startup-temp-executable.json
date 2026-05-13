@@ -1,0 +1,11 @@
+{
+  "id": "startup-temp-executable",
+  "name": "Startup executable in temporary location",
+  "category": "SuspiciousPersistence",
+  "weight": 60,
+  "description": "Startup entries launching from temp locations are commonly abused by unwanted software.",
+  "recommendation": "Verify publisher and purpose. Disable startup entry first, then quarantine if unwanted.",
+  "pathRegex": "(Temp|AppData.Local.Temp).*(exe|bat|cmd|ps1)$",
+  "extensions": [ ".exe", ".bat", ".cmd", ".ps1" ],
+  "requiresStartupContext": true
+}

@@ -1,0 +1,10 @@
+{
+  "id": "browser-hijacker-policy-change",
+  "name": "Browser policy modification indicator",
+  "category": "BrowserHijacker",
+  "weight": 45,
+  "description": "Detects policy files or registry exports that appear to alter browser search behavior.",
+  "recommendation": "Inspect browser policy settings and remove only verified unwanted entries.",
+  "pathRegex": "(Chrome|Edge|Firefox).*(Policy|Policies)",
+  "textPatterns": [ "DefaultSearchProvider", "ExtensionInstallForcelist" ]
+}
